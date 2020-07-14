@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>To-do list</h1>
+    <h1>To-Do App</h1>
     <md-field>
       <md-input 
         v-model="currentTodo" 
@@ -102,4 +102,53 @@ export default {
 </script>
 
 <style>
+body {
+  margin: 5% 10% !important;  
+  color: #FEE5ED;
+}
+
+.container {
+  background-color: #AB083A;
+  padding: 2%;
+  border-radius: 35px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.is-complete {
+  text-decoration: line-through;
+  color: #B5B5B5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.md-field .md-input,
+.md-field .md-textarea {
+  background-color: whitesmoke !important;
+}
+
+.todos .md-raised {
+  margin-top: -5px;
+  font-size: 12px;
+  border-radius: 25px;
+}
+
+span.todo-item-label {
+  font-size: 18px;
+}
+
+.md-button .md-ripple {
+  padding: -1px -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gainsboro;
+}
 </style> 
