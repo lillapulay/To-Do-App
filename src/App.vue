@@ -6,6 +6,7 @@
         {{ todo.label }}
       </li>
     </ul>
+    <button @click="removeTodo(todo)">Delete</button>
   </div>
 </template>
 
@@ -21,6 +22,10 @@ export default {
     addTodo() {
       this.todos.push({id: this.todos.length, label: this.currentTodo, completed: false});
       this.currentTodo = '';
+    },
+    removeTodo(todo) {
+      var index = this.todos.indexOf(todo);
+      this.todos.splice(index, 1);
     }
   }
 };
