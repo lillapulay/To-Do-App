@@ -1,3 +1,12 @@
+Basic to-do app created with Vue.js. 
+This project was part of the CF web development course. 
+
+Planned updates:
+- drag-and-drop function
+- local storage
+- UI updates (e.g. improvements regarding checkboxes and button placement).
+```
+
 # todo
 
 ## Project setup
