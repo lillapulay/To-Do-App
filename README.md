@@ -3,7 +3,7 @@
 ## About
 ```
 Basic to-do app created with Vue.js. 
-This project was part of the CF web development course. 
+This project was part of the CF Full-Stack Web Development course. 
 ```
 
 ### Planned updates:
